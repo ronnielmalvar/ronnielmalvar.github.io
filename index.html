@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+        }
+        .section p {
+            line-height: 1.6;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        a{
+            text-decoration: none;
+            border: solid 1px;
+            color: black;
+            background-color: lightgray;
+            margin-left: 50%;
+            border-radius: 2px;
+            font-size: 20px;
+        }
+        a:hover{
+        color: orange;
+        transition: 0s;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="ME.jpg" width="120" height="120">
+        <h1>MALVAR,RONNIEL J.</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>About Me</h2>
+            <p>I am a passionate web developer with experience in HTML, CSS, and JavaScript. I love building responsive and user-friendly websites.</p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <p>Bachelor of Science in Information Technology<br>
+            University Institute of Buisness and Medical Arts(UIBMA)</p>
+        </div>
+
+        <div class="section">
+            <h2>Experience</h2>
+            <p>Web Developer - ABC Company (2029 - Present)<br>
+            - Developed and maintained company websites<br>
+            - Collaborated with designers to implement UI/UX designs</p>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Responsive Web Design</li>
+                <li>Version Control (Git)</li>
+            </ul>
+        </div>
+
+        <div class="section contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: ronniemlavar@gmal.com</p>
+            <p>Phone: 0991781338</p>
+            <p>Address: BULAKLAKAN,GLORIA ORINTAL MINDORO</p>
+        </div>
+    </div>
+    <div>
+        <a href="RESUME.html">Exit</a>
+    </div>
+</body>
+</html>
